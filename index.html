@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+  <title>Guest Lookup – Live CSV</title>
+  <style>
+    :root{--bg:#0f172a; --card:#111827; --muted:#1f2937; --text:#e5e7eb; --sub:#9ca3af; --accent:#22c55e; --blue:#60a5fa; --red:#ef4444;}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:linear-gradient(180deg,#0b1224 0%,#0f172a 40%,#111827 100%);color:var(--text);
+      font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,"Helvetica Neue",Arial;display:flex;align-items:center;justify-content:center;padding:16px}
+    .app{width:100%;max-width:980px}
+    .card{background:rgba(17,24,39,.7);border:1px solid rgba(255,255,255,.06);backdrop-filter:blur(6px);border-radius:20px;padding:16px;box-shadow:0 10px 30px rgba(0,0,0,.45)}
+    h1{margin:0 0 4px 0;font-size:22px}
+    .hint{color:var(--sub);font-size:14px}
+    .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    input,button,select{border-radius:12px;padding:12px 14px;border:1px solid rgba(255,255,255,.08);font-size:16px;background:#0b1224;color:var(--text);outline:none}
+    input:focus,select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(96,165,250,.25)}
+    .button{background:linear-gradient(180deg,#22c55e,#16a34a);border:none;color:white;font-weight:700;cursor:pointer;box-shadow:0 6px 18px rgba(34,197,94,.35)}
+    .button:active{transform:translateY(1px)}
+    .pill{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.08);background:#0b1224;font-size:13px;color:var(--sub)}
+    .grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:14px}
+    @media (min-width:640px){ .grid{ grid-template-columns: 1fr 1fr; } }
+    .item{background:linear-gradient(180deg,#0b1224,#0f162c);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:12px;display:flex;align-items:center;justify-content:space-between;gap:8px}
+    .name{font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .meta{font-size:13px;color:var(--sub);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .badge{background:rgba(34,197,94,.15);color:#b6f3c9;border:1px solid rgba(34,197,94,.35);padding:8px 10px;border-radius:12px;font-weight:800;font-size:14px;min-width:96px;text-align:center}
+    .seat{background:rgba(96,165,250,.15);color:#dbeafe;border-color:rgba(96,165,250,.35)}
+    .empty{border:1px dashed rgba(255,255,255,.15);color:var(--sub);border-radius:16px;padding:22px;text-align:center}
+    footer{margin-top:12px;display:flex;justify-content:space-between;align-items:center;color:var(--sub);font-size:12px;gap:8px;flex-wrap:wrap}
+    .status{font-size:13px}
+    .err{color:#fecaca}
+    .right{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+    .sm{font-size:12px;color:var(--sub)}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="card">
+      <h1>Guest Lookup (Live)</h1>
+      <div class="hint">Paste a <strong>public CSV link</strong> (with direct download + CORS enabled), then search by <strong>Name</strong>, <strong>ID</strong>, or <strong>Email</strong>.</div>
+      
+      <div class="row">
+        <input id="csvUrl" placeholder="https://.../guestlist.csv (OneDrive/SharePoint/Google Sheets/GitHub raw)" style="flex:1;min-width:260px">
+        <button id="load" class="button">Load</button>
+        <label class="pill"><input id="auto" type="checkbox" style="accent-color:#22c55e"> Auto-refresh</label>
+        <select id="interval">
+          <option value="15">15s</option>
+          <option value="30" selected>30s</option>
+          <option value="60">60s</option>
+          <option value="120">2m</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <input id="q" placeholder="Search name, ID, or email…" style="flex:1;min-width:220px">
+        <button id="clear" class="button" title="Clear search">Clear</button>
+      </div>
+
+      <div class="row">
+        <span class="pill"><span id="count">0 results</span></span>
+        <span class="pill"><span id="updated">Last updated: —</span></span>
+        <span class="status" id="status"></span>
+      </div>
+
+      <div id="results" class="grid" role="list" aria-live="polite"></div>
+      <div id="empty" class="empty">Paste a CSV URL and click <strong>Load</strong>, or load <button id="demo" class="button" style="padding:8px 10px;box-shadow:none">Demo Data</button>.</div>
+
+      <footer>
+        <div class="sm">Tip: Add to Home Screen for a full-screen, app-like experience.</div>
+        <div class="sm">All data is parsed locally in your browser.</div>
+      </footer>
+    </div>
+  </div>
+
+<script>
+function parseCSV(text){
+  const rows=[];let i=0,cur='',inQ=false,row=[];
+  while(i<text.length){const c=text[i];
+    if(inQ){ if(c === '\"'){ if(text[i+1] === '\"'){cur+='\"'; i++;} else {inQ=false;} } else {cur+=c;} }
+    else{ if(c === '\"'){ inQ=true; } else if(c === ','){ row.push(cur); cur=''; }
+      else if(c === '\\r'){ /* ignore */ }
+      else if(c === '\\n'){ row.push(cur); rows.push(row); row=[]; cur=''; }
+      else { cur+=c; } }
+    i++;
+  }
+  if(cur.length>0 || row.length>0){ row.push(cur); rows.push(row); }
+  return rows;
+}
+const $ = s => document.querySelector(s);
+const resultsEl = $("#results"), emptyEl=$("#empty"), countEl=$("#count"), updatedEl=$("#updated"), statusEl=$("#status");
+let data=[], timer=null, currentUrl=null;
+
+function normalizeHeader(h){
+  return (h||'').toString().trim().toLowerCase()
+    .replace(/\\s+/g,' ')
+    .replace(/[^a-z0-9 ]/g,'')
+    .replace(/\\s+/g,'_');
+}
+const headerAliases = {
+  name: new Set(['name','guest','guest_name','full_name']),
+  id: new Set(['id','guest_id','identifier','code','ticket','ref','reference']),
+  email: new Set(['email','e-mail','mail','email_address']),
+  table: new Set(['table','table_no','table_number']),
+  seat: new Set(['seat','seat_no','seat_number','chair','place'])
+};
+function detectColumns(rawHeaders){
+  const norm = rawHeaders.map(normalizeHeader);
+  const map = {name:null,id:null,email:null,table:null,seat:null};
+  for(let i=0;i<norm.length;i++){
+    const h = norm[i];
+    for(const key of Object.keys(headerAliases)){
+      if(headerAliases[key].has(h)) { map[key]=i; }
+    }
+  }
+  return map;
+}
+function loadRows(rows){
+  if(!rows || !rows.length){ setStatus('Empty CSV', true); return; }
+  const map = detectColumns(rows[0]);
+  const records = [];
+  for(let r=1;r<rows.length;r++){
+    const row = rows[r];
+    if(row.length===1 && row[0]==='') continue;
+    const rec = {
+      name: (row[map.name] ?? '').toString().trim(),
+      id: (row[map.id] ?? '').toString().trim(),
+      email: (row[map.email] ?? '').toString().trim(),
+      table: (row[map.table] ?? '').toString().trim(),
+      seat: (row[map.seat] ?? '').toString().trim(),
+    };
+    rec._hay = [rec.name, rec.id, rec.email].join(' ').toLowerCase();
+    records.push(rec);
+  }
+  data = records;
+  updatedEl.textContent = "Last updated: " + new Date().toLocaleString();
+  render($("#q").value);
+}
+async function fetchCSV(url){
+  setStatus('Loading…');
+  try{
+    const bust = (url.includes('?')? '&':'?') + '_t=' + Date.now();
+    const res = await fetch(url + bust, {mode:'cors', cache:'no-store'});
+    if(!res.ok){ throw new Error('HTTP ' + res.status); }
+    const text = await res.text();
+    loadRows(parseCSV(text));
+    setStatus('Loaded ✓');
+  }catch(err){
+    setStatus('Load failed: ' + (err.message || err), true);
+  }
+}
+function render(query){
+  const q = (query||'').trim().toLowerCase();
+  let rows = data;
+  if(q){ const parts = q.split(/\\s+/).filter(Boolean); rows = data.filter(rec => parts.every(p => rec._hay.includes(p))); }
+  countEl.textContent = rows.length + ' result' + (rows.length===1?'':'s');
+  resultsEl.innerHTML='';
+  if(!data.length){ emptyEl.classList.remove('hidden'); return; }
+  emptyEl.classList.add('hidden');
+  if(!rows.length){ const div=document.createElement('div'); div.className='empty'; div.textContent='No matches'; resultsEl.appendChild(div); return; }
+  const frag = document.createDocumentFragment();
+  for(const r of rows.slice(0,600)){
+    const el = document.createElement('div');
+    el.className='item';
+    el.innerHTML = `
+      <div style="min-width:0">
+        <div class="name">${escapeHTML(r.name || '(No name)')}</div>
+        <div class="meta">${escapeHTML(r.id || '—')} • ${escapeHTML(r.email || '—')}</div>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center">
+        <div class="badge">Table ${escapeHTML(r.table || '?')}</div>
+        <div class="badge seat">Seat ${escapeHTML(r.seat || '?')}</div>
+      </div>`;
+    frag.appendChild(el);
+  }
+  resultsEl.appendChild(frag);
+}
+function escapeHTML(s){ return (s??'').toString().replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
+function setStatus(msg, isErr=false){ statusEl.textContent = msg; statusEl.className = 'status ' + (isErr ? 'err' : ''); }
+
+// UI hooks
+$("#load").addEventListener("click", () => {
+  const url = $("#csvUrl").value.trim();
+  if(!url){ setStatus('Enter a CSV URL'); return; }
+  currentUrl = url;
+  fetchCSV(currentUrl);
+  resetTimer();
+});
+$("#q").addEventListener("input", ev => { render(ev.target.value); });
+$("#clear").addEventListener("click", () => { $("#q").value=''; render(''); $("#q").focus(); });
+$("#demo").addEventListener("click", () => {
+  const csv = `Name,ID,Email,Table,Seat
+Aisha Khan,G-1023,aisha.khan@example.com,12,3
+Mohamed Ali,G-1024,m.ali@example.com,5,8
+Samir Patel,G-1088,samir@example.com,7,1
+Layla Ahmed,G-1099,layla.ahmed@example.com,12,1
+Noura Al Thani,G-1110,noura@guest.co,1,2
+`;
+  loadRows(parseCSV(csv));
+  setStatus('Demo data loaded');
+});
+$("#auto").addEventListener("change", resetTimer);
+$("#interval").addEventListener("change", resetTimer);
+
+function resetTimer(){
+  if(timer){ clearInterval(timer); timer=null; }
+  if($("#auto").checked && currentUrl){
+    const sec = parseInt($("#interval").value,10) || 30;
+    timer = setInterval(()=>fetchCSV(currentUrl), sec*1000);
+  }
+}
+</script>
+</body>
+</html>
