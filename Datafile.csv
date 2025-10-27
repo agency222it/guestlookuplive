@@ -1,0 +1,709 @@
+ID,Cat,Table,Seat,Name,Confirmation,E-Mail
+,VVIP,Table #1,Seat #1,Dr. Ali Jassim Al Mas,,
+,VVIP,Table #1,Seat #2,Dr. Najat Ali Mohsen Khenyab,,
+,VVIP,Table #1,Seat #3,Dr. Al-Hareth Al-Khater,Accepted,
+,VVIP,Table #1,Seat #4,Dr. Badria Ibrahim Saad-Al Mahmoud,,
+,VVIP,Table #1,Seat #5,Dr. Mohamad Hilani,Accepted,
+,VVIP,Table #1,Seat #6,Dr. Einas Al Kuwari,Accepted,
+,VVIP,Table #1,Seat #7,Dr. Salha Bujassoum,,
+,VVIP,Table #1,Seat #8,Dr. Khalifa Al Ansari,Accepted,
+,VVIP,Table #2,Seat #1,Dr. Zeena Shurbak,Accepted,
+,VVIP,Table #2,Seat #2,Dr. Abdulaziz Darwish,,
+,VVIP,Table #2,Seat #3,Dr. Loua Al Shaikh ,Accepted,
+,VVIP,Table #2,Seat #4,Dr. Wissam Ghadban,Accepted,
+,VVIP,Table #2,Seat #5,Dr. Essa Al-Sulaiti,,
+,VVIP,Table #2,Seat #6,Dr. Ibrahim Fawzy M A Hassan,,
+,VVIP,Table #2,Seat #7,Dr. Tania Hernandez,Accepted,
+,VVIP,Table #2,Seat #8,Dr. Ahmed Al-Mohammed,Accepted,
+,VVIP,Table #3,Seat #1,Dr. Huda Abdulla Hussain Saleh,Accepted,
+,VVIP,Table #3,Seat #2,Mr. Yehya Ahmed Taher,,
+,VVIP,Table #3,Seat #3,Dr. Mohd Hosni Abu Nada,,
+,VVIP,Table #3,Seat #4,Dr. Noora Al-Hammadi,Accepted,
+,VVIP,Table #3,Seat #5,Mr. Mohammed F. M. Swailem,,
+,VVIP,Table #3,Seat #6,Mr. Brendon Morris,Accepted,
+,VVIP,Table #3,Seat #7,Dr. Abdulwahab Al Musleh,,
+,VVIP,Table #3,Seat #8,Ms. Moza Al Hail,,
+,VVIP,Table #4,Seat #1,Mr. Hassan Al Hail,,
+,VVIP,Table #4,Seat #2,Mr. Fahad Ali Khamis Al Mislamani,,
+,VVIP,Table #4,Seat #3,Dr. Abdulla  Al Ansari,,
+,VVIP,Table #4,Seat #4,Mr. Naim Younis,,
+,VVIP,Table #4,Seat #5,Dr. Abdullatif Al Khal,,
+,VVIP,Table #4,Seat #6,Dr. Ali Nizar Latif,,
+,VVIP,Table #4,Seat #7,Dr. Majid Sultan M.K. Alabdulla ,Accepted,
+,VVIP,Table #4,Seat #8,Dr. Yousuf Al Maslamani,Accepted,
+,VVIP,Table #5,Seat #1,HE Mohammed Al Suwaidi,Accepted,
+,VVIP,Table #5,Seat #2,Mr. Ali Al Janahi,,
+,VVIP,Table #5,Seat #3,Dr. Khalid Mohammed Al Jalham,,
+,VVIP,Table #5,Seat #4,Mr. Nasser Al Naimi,Accepted,
+,VVIP,Table #5,Seat #5,Mr. Abdulla Rashid Al-Naimi,Declined,
+,VVIP,Table #5,Seat #6,Mr. Hamad Al-Khalifa,Accepted,
+,VVIP,Table #5,Seat #7,Mr. Faisal Zainal,,
+,VVIP,Table #5,Seat #8,Mr. Abdul Rahman Majid Al-Qahtani,,
+,VVIP,Table #6,Seat #1,Dr. Jameela  Al Ajmi,Accepted,
+,VVIP,Table #6,Seat #2,Mrs. Mona Shaheen S. T  Al-Homaiddi ,,
+,VVIP,Table #6,Seat #3,Ms. Mariam Al Mutawa,,
+,VVIP,Table #6,Seat #4,Dr. Muna Al Maslamani,Accepted,
+,VVIP,Table #6,Seat #5,Dr.  Hanadi Khamis Mubarak Alhamad,Accepted,
+,VVIP,Table #6,Seat #6,Mr. Mohamed Mubarak Al Jaffali Al Nuaimi,,
+,VVIP,Table #6,Seat #7,Dr. Jassim Al Suwaidi,Accepted,
+,VVIP,Table #6,Seat #8,Dr. Amal Gomaa Abdulla,,
+,VVIP,Table #7,Seat #1,Mr. Abdulla Ibrahim Al Sulaiti,Accepted,
+,VVIP,Table #7,Seat #2,Mr. Mohammed  Al Buraidi,,
+,VVIP,Table #7,Seat #3,Dr. Nidal Ahmad Assad,,
+,VVIP,Table #7,Seat #4,Dr. Ahmed Omar,,
+,VVIP,Table #7,Seat #5,Mr. Neil Dardis,,
+,VVIP,Table #7,Seat #6,Dr. Badriya Al Ali,,
+,VVIP,Table #7,Seat #7,Dr. Moza A/Latif Hassan Abdulla,Accepted,
+,VVIP,Table #7,Seat #8,Dr. Abdulla Rashid Al Naimi,,
+,VVIP,Table #8,Seat #1,Mr. Mohamed Al Jusaiman,Accepted,
+,VVIP,Table #8,Seat #2,Dr. Nora Nasser AHmed Obaidan,,
+,VVIP,Table #8,Seat #3,Dr. Fatma Jassim Al-Kuwari,,
+,VVIP,Table #8,Seat #4,Dr. Omar Al-Qahtani,,
+,VVIP,Table #8,Seat #5,Dr. Mohammed Salem Jaber Al Hassan,,
+,VVIP,Table #8,Seat #6,Mr. Iain Tulley,,
+,VVIP,Table #8,Seat #7,Mr. Daren John Mochrie,,
+,VVIP,Table #8,Seat #8,Mr. Hussein Ishaq,,
+,VVIP,Table #9,Seat #1,Dr. Samar A/Razzaq Mohd S Alemadi,Declined,
+,VVIP,Table #9,Seat #2,Dr. Saad Al Kaabi,,
+,VVIP,Table #9,Seat #3,Prof. Aftab Mohammad  Umar ,Accepted,
+,VVIP,Table #9,Seat #4,Dr. Abdulwahid Al Mulla,,
+,VVIP,Table #9,Seat #5,Dr. Mohamed Usama Al-Homsi,,
+,VVIP,Table #9,Seat #6,Dr. Alia Al Hadi,,
+,VVIP,Table #9,Seat #7,Dr. Salwa Yaqoub,,
+,VVIP,Table #9,Seat #8,Not Allocated,,
+,VIP,Table #10,Seat #1,Dr. Hani Al Kilani,Accepted,
+,VIP,Table #10,Seat #2,Ms. Constanze Morgenthaler,Accepted,
+,VIP,Table #10,Seat #3,Ms. Munira Alturki,Accepted,
+,VIP,Table #10,Seat #4,Dr. David Houston,Accepted,
+,VIP,Table #10,Seat #5,Mr. Hassan Majid Al Jassim,Accepted,
+,VIP,Table #10,Seat #6,Dr. Jazya Al Qahtani,Accepted,
+,VIP,Table #10,Seat #7,Mr. Turki Al Wajhan A. Owaida,Accepted,
+,VIP,Table #10,Seat #8,Mr. Rashid Al Marri,Accepted,
+,VIP,Table #11,Seat #1,Dr. Mustafa Al Hashimi,Accepted,
+,VIP,Table #11,Seat #2,Dr. Moayyad Ahmed Younis,Accepted,
+,VIP,Table #11,Seat #3,Dr. Aleya Abd El Hadi Hassan Ahmed,Accepted,
+,VIP,Table #11,Seat #4,Dr. Mohammed H.A. Nasser Al-Amri,Accepted,
+,VIP,Table #11,Seat #5,Dr. Majid Al Abdulla,Accepted,
+,VIP,Table #11,Seat #6,Dr. Amal Alobadli,Accepted,
+,VIP,Table #11,Seat #7,Dr. Mohamed Yahya Khatib,Accepted,
+,VIP,Table #11,Seat #8,Dr. Reem Jawad Al Sulaiman ,Accepted,
+,VIP,Table #12,Seat #1,Dr. Samar Al Razaq Mohd. S. Alemadi,Accepted,salemadi@hamad.qa
+,VIP,Table #12,Seat #2,Dr. Peter Alistair Cameron,Accepted,
+,VIP,Table #12,Seat #3,Ms. Nadya Al-Rauili,Accepted,
+,VIP,Table #12,Seat #4,Dr. Ameena Jesaimani,Accepted,
+,VIP,Table #12,Seat #5,Mr. Waleed Al Abdulla,Accepted,
+,VIP,Table #12,Seat #6,Dr. Abraham Hanounik,Accepted,
+,VIP,Table #12,Seat #7,Mr. Naji Al Mannai,Accepted,
+,VIP,Table #12,Seat #8,Dr. Hanan Saleh A Alyazeedi Alyafei,Accepted,
+,VIP,Table #13,Seat #1,Mr. Ahmed Abdulla A A Al-Mohannadi ,Accepted,
+,VIP,Table #13,Seat #2,Mr. Mohammed Almass Salem ,Accepted,
+,VIP,Table #13,Seat #3,Mr. Mansour Mohammed  Al Maslamani ,Accepted,
+,VIP,Table #13,Seat #4,Mr. Abram Samer Nagib Megaly Assad,Accepted,
+,VIP,Table #13,Seat #5,Shk Leena Hamad A A Al-Thani ,Accepted,
+,VIP,Table #13,Seat #6,Ms. Muna Abdulla O I Al-Temimi ,Accepted,
+,VIP,Table #13,Seat #7,Ms. Tahani Zaher ,Accepted,
+,VIP,Table #13,Seat #8,Not Allocated,Accepted,
+,VIP,Table #14,Seat #1,"Michael Giuliano, Planetree",Accepted,
+,VIP,Table #14,Seat #2,"Stephanie Adler Yuan, Planetree",Accepted,
+,VIP,Table #14,Seat #3,"Bassel El Sayegh, Planetree",Accepted,
+,VIP,Table #14,Seat #4,"Monalisa Watfa, Planetree",Accepted,
+,VIP,Table #14,Seat #5,"Khalifa Baqer, Dubai Health",Accepted,
+,VIP,Table #14,Seat #6,"Mariano Gonzalez, Dubai Health",Accepted,
+,VIP,Table #14,Seat #7,Abdul Majid Dalvi,Accepted,
+,VIP,Table #14,Seat #8,Deepshikha Sahni,Accepted,
+,VIP,Table #15,Seat #1,Mr. John Lambert-Smith,Accepted,
+,VIP,Table #15,Seat #2,Dr. Fatma A/Rahman Jassim Al Hail,Accepted,
+,VIP,Table #15,Seat #3,Dr. Aisha Soleman Al Ghafri,Accepted,
+,VIP,Table #15,Seat #4,Ms. Aileen Reidy,Accepted,
+,VIP,Table #15,Seat #5,Ms. Elizabeth Macgillivray,Accepted,
+,VIP,Table #15,Seat #6,Mr. James Woods,Accepted,
+,VIP,Table #15,Seat #7,Mr. Nayef Al Shamari ,Accepted,
+,VIP,Table #15,Seat #8,Mr. Paul Mavin,Accepted,
+,VIP,Table #16,Seat #1,Mr. Mohamed Al-Mohannadi,Accepted,malmohannadi1@hamad.qa
+,VIP,Table #16,Seat #2,Ms. Maitha  Al Bouainain,Accepted,Malbouainain@hamad.qa
+,VIP,Table #16,Seat #3,Mr. Bashayr Ahmed Al Rashid,Accepted,
+,VIP,Table #16,Seat #4,Mr. Ian Stewart  Mcdonald,Accepted,
+,VIP,Table #16,Seat #5,Mr. Abdulmajid Abdulmajid,Accepted,
+,VIP,Table #16,Seat #6,Dr. Abdul Salam Al-Qahtani,Accepted,
+,VIP,Table #16,Seat #7,Dr. Amira Nasser Al Hail,Accepted,
+,VIP,Table #16,Seat #8,Dr. Maliha Saleem,Accepted,
+,VIP,Table #17,Seat #1,Dr. Osama Al Elalamy ,Accepted,
+,VIP,Table #17,Seat #2,Dr. Moustafa Al-Khalil,Accepted,malkhalil@hamad.qa
+,VIP,Table #17,Seat #3,Dr.  Hassan Al-Thani,Accepted,
+,VIP,Table #17,Seat #4,Dr. Sandro Rizoli,Accepted,srizoli@hamad.qa
+,VIP,Table #17,Seat #5,Dr. Ghanem Salman Al Sulaiti,Accepted,galsulaiti@hamad.qa
+,VIP,Table #17,Seat #6,Mr. Abdulla Rashid Faisal Al-Naemi,Accepted,
+,VIP,Table #17,Seat #7,Dr. Riadh Fadhil,Accepted,
+,VIP,Table #17,Seat #8,Dr. Khalid Al Ansari,Accepted,
+,VIP,Table #18,Seat #1,Ahmed Samy Hassan El-Ghamry,Accepted,Aelghamry@hamad.qa
+,VIP,Table #18,Seat #2,Shameer Sam,Accepted,Ssam@hamad.qa
+,VIP,Table #18,Seat #3,Shashi Kiran Vijayendra,Accepted,Svijayendra@hamad.qa
+,VIP,Table #18,Seat #4,Rajesh Vasukuttan Nair,Accepted,RNair6@hamad.qa
+,VIP,Table #18,Seat #5,Sreejith Sasikumaran Nair,Accepted,SNair18@hamad.qa
+,VIP,Table #18,Seat #6,Nandakumar Chandrasekhran,Accepted,Nchandrasekharan@hamad.qa
+,VIP,Table #18,Seat #7,Deepakkumar Dubey,Declined,Ddubey@hamad.qa
+,VIP,Table #18,Seat #8,Bader Mohammed Telfat,Accepted,Btelfat@hamad.qa
+,VIP,Table #19,Seat #1,Amna Hamad Al-Hajri,Accepted,aalhajri13@hamad.qa
+,VIP,Table #19,Seat #2,Moustafa Aly Awad,Accepted,MAwad3@hamad.qa
+,VIP,Table #19,Seat #3,Abdallah El Eker,Accepted,Aeleker@hamad.qa
+,VIP,Table #19,Seat #4,Ahmed Saleh Jaradat,Accepted,Ajaradat@hamad.qa
+,VIP,Table #19,Seat #5,Mohammad Tahir Akram,Accepted,Makram@hamad.qa
+,VIP,Table #19,Seat #6,Mr. SOUD JABER H. H. ALBARAIDI,Accepted,salbaraidi@hamad.qa
+,VIP,Table #19,Seat #7,Dr. Abu Elgassim Mudawi Ahmed,Accepted,aahmed1@hamad.qa
+,VIP,Table #19,Seat #8,Not Allocated,,
+,VIP,Table #20,Seat #1,Ms. Khadija Khalid Mohammed,Accepted,KMohammed5@hamad.qa
+,VIP,Table #20,Seat #2,Dr. Reham Hassan Negm Eldin,Accepted,rhassan@hamad.qa
+,VIP,Table #20,Seat #3,Mr. Ahmad Mutar A M Al-Hajri,Accepted,aalhajri3@hamad.qa
+,VIP,Table #20,Seat #4,Dr. Khalid A Noor Saifeldeen,Accepted,Ksaifeldeen@hamad.qa
+,VIP,Table #20,Seat #5,Khawla Ahmed Ali Athamneh ,Accepted,Kathamneh@hamad.qa
+,VIP,Table #20,Seat #6,Alya Mohd K T AlSobai ,Accepted,AAlSobai@hamad.qa
+,VIP,Table #20,Seat #7,Not Allocated,,
+,VIP,Table #20,Seat #8,Not Allocated,,
+,VIP,Table #21,Seat #1,Dr. Ahmad Al Mulla,Accepted,
+,VIP,Table #21,Seat #2,Mr. John Ferguson,Accepted,
+,VIP,Table #21,Seat #3,Ms. Sabeeha Amin J H  Qasemi,Accepted,
+,VIP,Table #21,Seat #4,Mr. Nasser Abdullah Humaid   AlSawafi,Accepted,
+,VIP,Table #21,Seat #5,Mr. Ramae Quirante,Accepted,
+,VIP,Table #21,Seat #6,Mr. Fadi Khabani,Accepted,
+,VIP,Table #21,Seat #7,Mr. Fadi Khabani +1,Accepted,
+,VIP,Table #21,Seat #8,Not Allocated,,
+,VIP,Table #22,Seat #1,Ms. Dina Mohammed,Accepted,
+,VIP,Table #22,Seat #2,Ms. Sheryll Pacer,Accepted,
+,VIP,Table #22,Seat #3,Mr. Christopher Chorus,Accepted,
+,VIP,Table #22,Seat #4,Ms. Rachel Morris,Accepted,
+,VIP,Table #22,Seat #5,Ms. Randa Albaqari,Accepted,
+,VIP,Table #22,Seat #6,Ms. Nada El Hajj,Accepted,
+,VIP,Table #22,Seat #7,Ms. Buthayna Mohammed H M Bahlool,Accepted,
+,VIP,Table #22,Seat #8,Mr. Hussain Saleh H M Al-Khawaga,Accepted,
+,VIP,Table #23,Seat #1,Ms. Dowaa Abdulsattar,Accepted,
+,VIP,Table #23,Seat #2,Mr. Khaled Hassan Kassem,Accepted,
+,VIP,Table #23,Seat #3,Ms. Shaikha Salim Johar,Accepted,
+,VIP,Table #23,Seat #4,Mr. Gino Agulto,Accepted,
+,VIP,Table #23,Seat #5,Mr. Mohamed Shanas,Accepted,
+,VIP,Table #23,Seat #6,Ms. Leah Guarin,Accepted,
+,VIP,Table #23,Seat #7,Ms. Sarah Tapel,Accepted,
+,VIP,Table #23,Seat #8,Mr. Glenn Paul Giducos,Accepted,
+,VIP,Table #24,Seat #1,Not Allocated,,
+,VIP,Table #24,Seat #2,Not Allocated,,
+,VIP,Table #24,Seat #3,Not Allocated,,
+,VIP,Table #24,Seat #4,Not Allocated,,
+,VIP,Table #24,Seat #5,Not Allocated,,
+,VIP,Table #24,Seat #6,Not Allocated,,
+,VIP,Table #24,Seat #7,Not Allocated,,
+,VIP,Table #24,Seat #8,Not Allocated,,
+,VIP,Table #25,Seat #1,Dr. Salim Nour Eddin Al Lahham,Accepted,SAlLahham@hamad.qa
+,VIP,Table #25,Seat #2,Dr. Hosameldin Salah Shabib Sayed Ahmed,Accepted,HAhmed21@hamad.qa
+,VIP,Table #25,Seat #3,Dr. Hosam Abdelfattah Tawfik Mohamed,Accepted,HMohamed29@hamad.qa
+,VIP,Table #25,Seat #4,Dr. Sara Mohamed Fetouh Elfar,Accepted,SElfar@hamad.qa
+,VIP,Table #25,Seat #5,Ms. IMAN A H AHMAD,Accepted,IAHMAD2@hamad.qa
+,VIP,Table #25,Seat #6,Not Allocated,,
+,VIP,Table #25,Seat #7,Not Allocated,,
+,VIP,Table #25,Seat #8,Not Allocated,,
+,Evaluator,Table #26,Seat #1,Dr. Muna Ahmed Al-Rashid,Yes,Malrashid@hamad.qa
+,Evaluator,Table #26,Seat #2,Dr. Aisha Saif AlKubaisi,Yes,AAlkubaisi10@hamad.qa
+,Evaluator,Table #26,Seat #3,Dr. Aisha Hussain Al Adab,Yes,Aaladab@hamad.qa
+,Evaluator,Table #26,Seat #4,Mr. Emat Swallmeh,Yes,Eswallmeh@hamad.qa
+,Evaluator,Table #26,Seat #5,Ms. Anne Marie Sharon Schutte,Yes,Aschutte@hamad.qa
+,Evaluator,Table #26,Seat #6,Mr. Novica Icic,Yes,Nicic@hamad.qa
+,Evaluator,Table #26,Seat #7,Dr. Mohammed Ussama Al Homsi,Yes,Malhomsi@hamad.qa
+,Evaluator,Table #26,Seat #8,Dr. Honar Cherif,Yes,Hcherif@hamad.qa
+,Evaluator,Table #26,Seat #9,Ms. Joan Lett,Yes,Jlett@hamad.qa
+,Evaluator,Table #26,Seat #10,Ms. Nima Ali,Yes,NAli8@hamad.qa
+,Evaluator,Table #27,Seat #1,Dr. Dabia Al Mohanadi,Yes,balowainati@hamad.qa
+,Evaluator,Table #27,Seat #2,Dr. Buthaina Ibrahim Alowinati,Yes,Balowainati@hamad.qa
+,Evaluator,Table #27,Seat #3,Dr. Marwa Gomaa Mokhtar,Yes,mmokhtar@hamad.qa
+,Evaluator,Table #27,Seat #4,Mr. Dawoud Ibrahim Jamous,Yes,djamous@hamad.qa
+,Evaluator,Table #27,Seat #5,Dr. Wajiha Abu Haliqa,Yes,whaliqa@hamad.qa
+,Evaluator,Table #27,Seat #6,Dr. Noor Suleiman,Yes,nsuleiman@hamad.qa
+,Evaluator,Table #27,Seat #7,Dr. Tariq Chukir,Yes,tchukir@hamad.qa
+,Evaluator,Table #27,Seat #8,Dr. Turki Faris S.M. Al-Ahbabi,Yes,talahbabi@hamad.qa
+,Evaluator,Table #27,Seat #9,Dr. Wahiba Mohamed Hamid Elhag,Yes,welhag1@hamad.qa
+,Evaluator,Table #27,Seat #10,Dr. Mohamed Aly Elsherif Ibrahim ElSherif,Yes,melsherif1@hamad.qa
+,Evaluator,Table #28,Seat #1,Mr. Segla Tro,Yes,STro@hamad.qa
+,Evaluator,Table #28,Seat #2,Dr. Manal Saleh Al Shamari,Yes,MAlshamari1@hamad.qa
+,Evaluator,Table #28,Seat #3,Ms. Fadia Hasan Ali,Yes,FAli3@hamad.qa
+,Evaluator,Table #28,Seat #4,Dr. Salaheddin Omran Arafa,Yes,Sarafa@hamad.qa
+,Evaluator,Table #28,Seat #5,Dr. Sumaya Al Yafei,Yes,SAlsaadi1@hamad.qa
+,Evaluator,Table #28,Seat #6,Dr. Amira Saleh,Yes,ASaleh14@hamad.qa
+,Evaluator,Table #28,Seat #7,Dr. Faten Taha,Yes,Ftaha@hamad.qa
+,Evaluator,Table #28,Seat #8,"Dr, Mohammad Mahmah",Yes,Mmahmah@hamad.qa
+,Evaluator,Table #28,Seat #9,Alia Ahmed Serour,Yes,Aserour@hamad.qa
+,Evaluator,Table #28,Seat #10,Dr. Nasrein Mohmed Elkomy,Yes,Nelkomy@hamad.qa
+,Evaluator,Table #29,Seat #1,Dr. Mohamed Mostafa Arafa Yamani,Yes,Myamani@hamad.qa
+,Evaluator,Table #29,Seat #2,Dr. Nabil Al Hamid Shalik,Yes,Nshallik@hamad.qa
+,Evaluator,Table #29,Seat #3,Dr. Walid Ezzeldin Karrar Omer,Yes,Womer@hamad.qa
+,Evaluator,Table #29,Seat #4,Ms. Reham Fathy Attalla,Yes,Rattalla@hamad.qa
+,Evaluator,Table #29,Seat #5,Dr. Fatma Ben Abid,Yes,Fabid@hamad.qa
+,Evaluator,Table #29,Seat #6,Dr. Muayad Kasem Khaled Ahmad,Yes,MAhmad2@hamad.qa
+,Evaluator,Table #29,Seat #7,Dr. Ibrahim Khaleel,Yes,Ikhaleel@hamad.qa
+,Evaluator,Table #29,Seat #8,Mr. Ala Mahmoud Mohd Taiyem,Yes,Ataiyem@hamad.qa
+,Evaluator,Table #29,Seat #9,Mr. Ali Mousa Alnaimat,Yes,Aalnaimat@hamad.qa
+,Evaluator,Table #29,Seat #10,Ms. Amal Al Obaidli,Yes,aalobaidli1@hamad.qa
+,Evaluator,Table #30,Seat #1,Dr. Almunzer Abduljalil Zakaria,Yes,Azakaria@hamad.qa
+,Evaluator,Table #30,Seat #2,Not Allocated,Yes,
+,Evaluator,Table #30,Seat #3,Dr. Nasser Ali Asad Al-Ansari,Yes,NAlansari2@hamad.qa
+,Evaluator,Table #30,Seat #4,Dr. Sabah Adnan Alkadhi,Yes,Salkadhi@hamad.qa
+,Evaluator,Table #30,Seat #5,Emad Naji Isaid,Yes,Eisaid@hamad.qa
+,Evaluator,Table #30,Seat #6,Nijab Shereef,Yes,Nshereef@hamad.qa
+,Evaluator,Table #30,Seat #7,Reem Al Bader,Yes,Ralbader@hamad.qa
+,Evaluator,Table #30,Seat #8,Asmaa Selman A A Al-Muhannadi,Yes,AAlmuhannadi2@hamad.qa
+,Evaluator,Table #30,Seat #9,Ms. Faiza Al Darwish ,Yes,fdarwish1@hamad.qa
+,Evaluator,Table #30,Seat #10,Dr. Sazgar Abdullah Hamad ,Yes,SHamad6@hamad.qa
+,Evaluator,Table #31,Seat #1,Dr. Faizan Shaukat Shahzad Malik,Yes,fmalik2@hamad.qa
+,Evaluator,Table #31,Seat #2,Ms. Lisha Abraham,Yes,LAbraham7@hamad.qa
+,Evaluator,Table #31,Seat #3,Mr. Ahmed Hassan Ahmed Mahmoud Saad,Yes,Asaad6@hamad.qa
+,Evaluator,Table #31,Seat #4,Mr. Phinoj Kumblanickal Abraham,Yes,PAbraham2@hamad.qa
+,Evaluator,Table #31,Seat #5,Mr. Antony Adaikalam,Yes,Aadaikalam@hamad.qa
+,Evaluator,Table #31,Seat #6,Ms. Sandhya Pramod Nikhade ,Yes,SNIKHADE@hamad.qa
+,Evaluator,Table #31,Seat #7,Mr. Jamal Mohammad Mahmoud Kutkut,Yes,Jkutkut@hamad.qa
+,Evaluator,Table #31,Seat #8,Dr. Maria Del Carmen Ricardo Cobas,Yes,MCobas1@hamad.qa
+,Evaluator,Table #31,Seat #9,Dr. Tania Lizzet Hernandez Palacios,Yes,Tpalacios@hamad.qa
+,Evaluator,Table #31,Seat #10,Ms. Yoanka Herrera Vives,Yes,Yvives@hamad.qa
+,Evaluator,Table #32,Seat #1,Dr. James William Edward Laughton,Yes,Jlaughton@hamad.qa
+,Evaluator,Table #32,Seat #2,Mr. Guillaume Henri Jean Alinier,Yes,Galinier@hamad.qa
+,Evaluator,Table #32,Seat #3,Mr. Hadi Braik H Al-Marri,Yes,HAlmarri8@hamad.qa
+,Evaluator,Table #32,Seat #4,Mr. Saleh Nasser R A Al-Meqareh,Yes,Salmeqareh@hamad.qa
+,Evaluator,Table #32,Seat #5,Dr. Awad A Razaq Al Qahtani,Yes,AAlqahtani7@hamad.qa
+,Evaluator,Table #32,Seat #6,Dr. Hassan Mohammed Altamimi,Yes,HAltamimi1@hamad.qa
+,Evaluator,Table #32,Seat #7,Dr. Ahmad Hassan AlMalki,Yes,AAlmalki14@hamad.qa
+,Evaluator,Table #32,Seat #8,Ms. Sabeeha Amin J H Qasemi,Yes,Sqasemi@hamad.qa
+,Evaluator,Table #32,Seat #9,Mr. Ibrahim Juma Al Sheraim,Yes,Ialsheraim@hamad.qa
+,Evaluator,Table #32,Seat #10,Mr. Abdulrahman Y. Al Jouf,Yes,Aaljouf@hamad.qa
+,Evaluator,Table #33,Seat #1,Dr. Amer AzzamM Shatta,Yes,Ashatta@hamad.qa
+,Evaluator,Table #33,Seat #2,Dr. Fatima Abdulla Al-Sheeb,Yes,FAlsheeb1@hamad.qa
+,Evaluator,Table #33,Seat #3,Dr. Nadya Marouf Mahmoud,Yes,Nmahmoud@hamad.qa
+,Evaluator,Table #33,Seat #4,Ms. Justine Veronica Plaaties,Yes,Jplaaties@hamad.qa
+,Evaluator,Table #33,Seat #5,Ms. Mona Nasr Abdelazim Mohamed,Yes,MMohamed13@hamad.qa
+,Evaluator,Table #33,Seat #6,Ms. Asmahan Abdo,Yes,Aabdo@hamad.qa
+,Evaluator,Table #33,Seat #7,Ms. Safa Bader Mohammad Aladerah,Yes,Saladerah@hamad.qa
+,Evaluator,Table #33,Seat #8,Mr. Maqsood Ibrahin Adam,Yes,adam@hamad.qa
+,Evaluator,Table #33,Seat #9,Ms. Sybiil Binu George,Yes,SGeorge1@hamad.qa
+,Evaluator,Table #33,Seat #10,Dr. Feras Haddad,Yes,Fhaddad@hamad.qa
+,Evaluator,Table #38,Seat #1,Ms. Alanoud Hamad Al Marri,Yes,aalmarri6@hamad.qa
+,Evaluator,Table #38,Seat #2,Mr. Thabit Melhem,Yes,Tmelhem@hamad.qa
+,Evaluator,Table #38,Seat #3,Dr. Shireen Omer A/Nour Suliman,Yes,Ssuliman@hamad.qa
+,Evaluator,Table #38,Seat #4,Dr. Muthusamy Thevar Sevugapandian Vijay Jeganath,Yes,Mjeganath@hamad.qa
+,Evaluator,Table #38,Seat #5,Ms. Zehra Mazhar,Yes,Zmazhar@hamad.qa
+,Evaluator,Table #38,Seat #6,Not Allocated,Yes,
+,Evaluator,Table #38,Seat #7,Dr. Fatima Rustom,Yes,FRustom@hamad.qa
+,Evaluator,Table #38,Seat #8,Ms. Kumari Theresa Thomas,Yes,KThomas2@hamad.qa
+,Evaluator,Table #38,Seat #9,Ms. Raissa Jacinto Puddao,Yes,Rpuddao@hamad.qa
+,Evaluator,Table #38,Seat #10,Mr. Roderic Batang Dayag,Yes,Rdayag@hamad.qa
+,Evaluator,Table #39,Seat #1,Ms. Dareen Azzam,Yes,DAzzam@hamad.qa
+,Evaluator,Table #39,Seat #2,Mr. Mohanraj Dhanagopal,Yes,MDHANAGOPAL@hamad.qa
+,Evaluator,Table #39,Seat #3,Ms. Karla Al Langawi,Yes,KAlLanjawi@hamad.qa
+,Evaluator,Table #39,Seat #4,Ms. Jawaher Al Jasmi,Yes,JAlJasmi1@hamad.qa
+,Evaluator,Table #39,Seat #5,Mr. Vinci Vasudevan,Yes,Vvasudevan@hamad.qa
+,Evaluator,Table #39,Seat #6,Mr. Ashraf Sharief,Yes,Asharief@hamad.qa
+,Evaluator,Table #39,Seat #7,Mr. Rizwan Aboobacker,Yes,Raboobacker@hamad.qa
+,Evaluator,Table #39,Seat #8,Not Allocated,,
+,Evaluator,Table #39,Seat #9,Not Allocated,,
+,Evaluator,Table #39,Seat #10,Not Allocated,,
+,Winners,Table #34,Seat #1, Dr. Brijesh Sathian,Yes,
+,Winners,Table #34,Seat #2, Kavitha Balakrishnan,Yes,
+,Winners,Table #34,Seat #3, Anvar Hassan Kaleeckal,Yes,
+,Winners,Table #34,Seat #4, Dr. Mani Chandran,Yes,
+,Winners,Table #34,Seat #5, Dr. Shafi Hashmath Ulla Khan,Yes,
+,Winners,Table #34,Seat #6, Dr Navas Nadukkandiyil,Yes,
+,Winners,Table #34,Seat #7, Ali Abdalsattar Ahmed Elsayed Elbialy,Yes,
+,Winners,Table #34,Seat #8, Dr. Osman Bashir Taha Nemeri,Yes,
+,Winners,Table #34,Seat #9, Dr. Mahmoud Ahmed Ahmed Refaee,Yes,
+,Winners,Table #34,Seat #10, Dr. Jamsheena Hamdi,Yes,
+,Winners,Table #35,Seat #1,Dr. Saffa Mohamed Awadalla  Elawad,Yes,selawad1@hamad.qa
+,Winners,Table #35,Seat #2,Dr. Hassan Ali  Al Malki ,Yes,halmalki@hamad.qa 
+,Winners,Table #35,Seat #3,Dr. Yousef Al Maslamani ,Yes,yalmaslamani@hamad.qa 
+,Winners,Table #35,Seat #4,Dr. Muhammad Asim ,Yes,Masim@hamad.qa 
+,Winners,Table #35,Seat #5,Dr. Ahmed Hamdi ,Yes,AHamdi@hamad.qa 
+,Winners,Table #35,Seat #6,Dr. Adel Aziz ,Yes,aaziz@hamad.qa 
+,Winners,Table #35,Seat #7,Dr. Omar Isam Ali ,Yes,oali@hamad.qa 
+,Winners,Table #35,Seat #8,Dr. Riadh Fadhil ,Yes,rfadhil@hamad.qa 
+,Winners,Table #35,Seat #9,Dr. Reem Sulaiman ,Yes,RALSulaiman@hamad.qa 
+,Winners,Table #35,Seat #10,Ms. Reem Bux ,Yes,RBux@hamad.qa 
+47119,Winners,Table #36,Seat #1,Dr. Hamed Mohamed Hammoud,Yes,hhammoud@hamad.qa
+39397,Winners,Table #36,Seat #2,Dr. Rowaida Elyamani,Yes,relyamani@hamad.qa
+53226,Winners,Table #36,Seat #3,Dr. Rana Marwan Nakchou,Yes,rnakchou@hamad.qa
+54821,Winners,Table #36,Seat #4,Dr. Maya Chehabeddine,Yes,mchehabeddine@hamad.qa
+39241,Winners,Table #36,Seat #5,Mary Anne Tourette,Yes,mtourette@hamad.qa
+17263,Winners,Table #36,Seat #6,Hajer Bent Younes Hedfi,Yes,hhedfi@hamad.qa
+13264,Winners,Table #36,Seat #7,Fatima Mohammed Al-Kaabi,Yes,falkaabi@hamad.qa
+33956,Winners,Table #36,Seat #8,Ibtisam Mousa Mahmoud Yousef,Yes,iyousef1@hamad.qa
+30269,Winners,Table #36,Seat #9,Sahar Al-Shamari,Yes,salshamari1@hamad.qa
+50339,Winners,Table #36,Seat #10,Hala Taha Shabana,Yes,hshabana@hamad.qa
+29928,Winners,Table #37,Seat #1,Mr. Jade Paolo Concepcion,Yes,jconcepcion@hamad.qa
+41067,Winners,Table #37,Seat #2,Dr. Balakrishnan Ramachandran,Yes,bramachandran1@hamad.qa
+46432,Winners,Table #37,Seat #3,Mr. Abdulaziz Alrawashdeh,Yes,aalrawashdeh@hamad.qa
+32980,Winners,Table #37,Seat #4,Mr. Mohammad Jamal Jamil Issa,Yes,missa1@hamad.qa
+27887,Winners,Table #37,Seat #5,Ms. Maroua Ajili,Yes,majili@hamad.qa
+51653,Winners,Table #37,Seat #6,Ms. Rose Ann Perez,Yes,rperez5@hamad.qa
+59867,Winners,Table #37,Seat #7,Dr. Abeer Lashgar,Yes,alashgar@hamad.qa
+36401,Winners,Table #37,Seat #8,Mr. Emad Al Atrash,Yes,ealatrash@hamad.qa
+44728,Winners,Table #37,Seat #9,Dr. Preethi Thomas,Yes,pthomas9@hamad.qa
+66244,Winners,Table #37,Seat #10,Mr. Renz Zacarias,Yes,rzacarias@hamad.qa
+,Winners,Table #40,Seat #1,Dr.  Nafil Ishaq Arimbrathodi,Yes,
+,Winners,Table #40,Seat #2,Ms.  Rania Amin A/Rahim Mohamed,Yes,
+,Winners,Table #40,Seat #3,Mr.  Osaid Yousef Ibrahim,Yes,
+,Winners,Table #40,Seat #4,Dr.  Raana Muzaffar Husain Siddiqui,Yes,
+,Winners,Table #40,Seat #5,Ms.  Hanan Hanafi Mahmoud M. Etman,Yes,
+,Winners,Table #40,Seat #6,Dr. Gamal Abdullah Mohammed Al-Ameri,Yes,
+,Winners,Table #40,Seat #7,Ms.  Loubelle P. Musibba,Yes,
+,Winners,Table #40,Seat #8,Ms. Omnia Mohd Gadel Rab M Hassan,Yes,
+,Winners,Table #40,Seat #9,Ms. Arlien Grace Lanticse,Yes,
+,Winners,Table #40,Seat #10,Ms. Ritze Palmares Siason,Yes,
+,Winners,Table #41,Seat #1,SHERIF HASHEM H. EL KHOLY,Yes,
+,Winners,Table #41,Seat #2,Dillip Kumar Choudhury,Yes,
+,Winners,Table #41,Seat #3,Josy Jose,Yes,
+,Winners,Table #41,Seat #4,Samiulla Khan,Yes,
+,Winners,Table #41,Seat #5,Dr. Abraham Hanounik,Yes,
+,Winners,Table #41,Seat #6,Fatma Abdulla A Jalili,Yes,
+,Winners,Table #41,Seat #7,Talib Hassen S.M. Al-Kathairi,Yes,
+,Winners,Table #41,Seat #8,Anvar Sadique Pulikkal Palekkot,Yes,
+,Winners,Table #41,Seat #9,Yasser Mohd Bahaa Eldin,Yes,
+,Winners,Table #41,Seat #10,Satya Pramod Kanchi,Yes,
+41003,Winners,Table #42,Seat #1,Dr. Abdullah Ibrahim Hamad                                                ,Yes,ahamad9@hamad.qa
+13560,Winners,Table #42,Seat #2,Dr. Ashraf Ahmed Fawzy,Yes,aibrahim6@hamad.qa
+40867,Winners,Table #42,Seat #3,Dr. Mohammed Ezzat ,Yes,MMohammed26@hamad.qa
+30596,Winners,Table #42,Seat #4,Dr. Tarek Ghonimi,Yes,tabdellatif@hamad.qa
+31547,Winners,Table #42,Seat #5,Dr. Tarek  Fouda           ,Yes,tfouda@hamad.qa
+22300,Winners,Table #42,Seat #6,Dr. Mohamed Amin El Esnawi,Yes,melesnawi@hamad.qa
+3109,Winners,Table #42,Seat #7,TEHA DHAM AL MOHANADI,Yes,TALMOHANADI1@hamad.qa
+8868,Winners,Table #42,Seat #8,HANAA HAMDY ALY AHMED,Yes,hahmed1@hamad.qa
+11522,Winners,Table #42,Seat #9,Thoraya Abdulla,Yes,talabdulla1@hamad.qa
+12093,Winners,Table #42,Seat #10,Merlina G. Vergel,Yes,mvergel@hamad.qa
+,Winners,Table #43,Seat #1,Shiju Ramapurath,Yes,
+,Winners,Table #43,Seat #2,Amal Salman S M Alobaidli,Yes,
+,Winners,Table #43,Seat #3,Ananth Nazarene,Yes,
+,Winners,Table #43,Seat #4,Dr. Majid Ali Y. A. Al Abdulla,Yes,
+,Winners,Table #43,Seat #5,Swamyvel Sethuraman,Yes,
+,Winners,Table #43,Seat #6,Glen Francis Bulaclac Garcia,Yes,
+,Winners,Table #43,Seat #7,Arnold M Mercado,Yes,
+,Winners,Table #43,Seat #8,Abeir Khamis Mohamed Hassan,Yes,
+,Winners,Table #43,Seat #9,Divya Cecilia Dsouza ,Yes,
+,Winners,Table #43,Seat #10,Dr. Shereen Mohammed Mohammed Aly,Yes,
+,Winners,Table #44,Seat #1,Dr. Ali Abdulla A Alqahtani,Yes,
+,Winners,Table #44,Seat #2, Ms. Asmaa Mohamed Abdelwahab Badr,Yes,
+,Winners,Table #44,Seat #3,Mr. MD Mostak Ahmed,Yes,
+,Winners,Table #44,Seat #4,Mr. Suleiman Raja Suleiman Ahmad ,Yes,
+,Winners,Table #44,Seat #5,Mr. Abdulrahem Yousef Al Jarod ,Yes,
+,Winners,Table #44,Seat #6,Ms. Dina Ahmad Hussein Salman ,Yes,
+,Winners,Table #44,Seat #7,Ms. Marwa Wefkey Mohammed Abouelnaga Zid,Yes,
+,Winners,Table #44,Seat #8,Dr. Ajimsha Mohammed Sharafudeen ,Yes,
+,Winners,Table #44,Seat #9,Ms. Noora Rashid Essa AL Mudehki,Yes,
+,Winners,Table #44,Seat #10,Dr. Ramshad Neroth Thazhakuniyil ,Yes,
+39692,Winners,Table #45,Seat #1,Ms. Nervana Elbakary,Yes,NElbakary@hamad.qa
+15702,Winners,Table #45,Seat #2,Ms. Noriya Al-Khuzaei,Yes,Nalkhuzaei@hamad.qa
+47916,Winners,Table #45,Seat #3,Dr. Malek Smida,Yes,SMalek1@hamad.qa
+53958,Winners,Table #45,Seat #4,Dr. James Currie,Yes,JCurrie@hamad.qa
+40266,Winners,Table #45,Seat #5,Ms. Niveen Aburahma,Yes,NAburahma@hamad.qa
+29313,Winners,Table #45,Seat #6,Mr. Ahmed Karawia,Yes,akarawia@hamad.qa
+36796,Winners,Table #45,Seat #7,Ms. Soad Mohamed Esmail Mahmoud,Yes,SMahmoud14@hamad.qa
+NA,Winners,Table #45,Seat #8,Dr. Sami Ouanes,Yes,sami.ouanes@gmail.com
+NA,Winners,Table #45,Seat #9,Ms. Tarteel Hussain,Yes,tarteelhussain@gmail.
+,Winners,Table #45,Seat #10,,Yes,
+27758,Winners,Table #46,Seat #1,Dr. Mohamad Mahmood Alkadi,Yes,malkadi@hamad.qa
+30115,Winners,Table #46,Seat #2,Dr. Essa Abdulla Abuhelaiqa,Yes,eabuhelaiqa1@hamad.qa
+21025,Winners,Table #46,Seat #3,Dr. Omar Fituri,Yes,ofituri@hamad.qa
+12035,Winners,Table #46,Seat #4,Dr. Awais Nauman,Yes,anahman@hamad.qa
+49884,Winners,Table #46,Seat #5,Dr. Faten Faisal Aqeel,Yes,faqeel@hamad.qa
+18650,Winners,Table #46,Seat #6,Dr. Salahaldin A/Latif,Yes,salatif@hamad.qa
+50221,Winners,Table #46,Seat #7,Dr. Baleegh Mansoor Alsharam,Yes,balsharam1@hamad.qa
+17466,Winners,Table #46,Seat #8,Dr. Sara Adil Salim,Yes,SGHAFOUR@hamad.qa 
+17313,Winners,Table #46,Seat #9,Kholoud J. Aljassim,Yes,KALJASSIM@hamad.qa
+ 47818,Winners,Table #46,Seat #10, Alaa Hassiba,Yes,ahassiba@hamad.qa
+,Winners,Table #47,Seat #1,Jeanette Petrie,Yes,
+,Winners,Table #47,Seat #2,Ayman Emam El Sherif,Yes,
+,Winners,Table #47,Seat #3,Josephine Grace Roxas Tua,Yes,
+,Winners,Table #47,Seat #4,Sevugaperumal Kalimuthu,Yes,
+,Winners,Table #47,Seat #5,Faisal Chakkalakunnan,Yes,
+,Winners,Table #47,Seat #6,Dr. Haytham Khalifa A M Al Jaber,Yes,
+,Winners,Table #47,Seat #7,Kris Choda,Yes,
+,Winners,Table #47,Seat #8,Joel Praveen Kumar Gunasegaran,Yes,
+,Winners,Table #47,Seat #9,Nithin Amarnath,Yes,
+,Winners,Table #47,Seat #10,Mohamed Hussain,Yes,
+,Winners,Table #48,Seat #1,Dr. MOZA A/LATIF HASSAN ABDULLA,Yes,Mabdulla@hamad.qa
+,Winners,Table #48,Seat #2,Somia Elfaki,Yes,Selfaki1@hamad.qa
+,Winners,Table #48,Seat #3,Dr Abdulla Ahmad A A Yousuf,Yes,AYousuf@hamad.qa
+,Winners,Table #48,Seat #4,Dr Dalia Albahari,Yes,DAlbahari@hamad.qa
+,Winners,Table #48,Seat #5,Dr Jaseem Koorankot,Yes,JKoorankot@hamad.qa
+,Winners,Table #48,Seat #6,Ms Katja Anneli Warwick Smith,Yes,KSmith@hamad.qa
+,Winners,Table #48,Seat #7,Ms Refa Hanish B Z Bakhit,Yes,RBakhit@hamad.qa
+,Winners,Table #48,Seat #8,Dr Mary Jyothis Titus,Yes,MTitus@hamad.qa
+,Winners,Table #48,Seat #9,Ms ISLAM RABI SALEM HASHLAMOUN,Yes,IHASHLAMOUN@hamad.qa
+,Winners,Table #48,Seat #10,Ms Pauline Grace Busalpa Cadampog,Yes,PCadampog@hamad.qa
+7578,Winners,Table #49,Seat #1,Dr. Abdulla  Ali  Asad Al Annsari,Yes,AALANSARI1@hamad.qa 
+9228,Winners,Table #49,Seat #2,Mrs. Nadia Al-Mansoor,Yes,Nalmansoor@hamad.qa 
+37423,Winners,Table #49,Seat #3,Mr. Marcos Athony Alman,Yes,MAlman1@hamad.qa 
+25836,Winners,Table #49,Seat #4,Mrs. Amal Ahmed Al Mulla,Yes,AALMULLA2@hamad.qa 
+456578,Winners,Table #49,Seat #5,Dr. Mairovis Ochoa Reyes,Yes,MReyes16@hamad.qa 
+26350,Winners,Table #49,Seat #6,Mrs. Marwa Mahmoud H. Mohammed,Yes,MMohammed9@hamad.qa 
+24877,Winners,Table #49,Seat #7,Mr. Rico Mendoza Luna,Yes,RLUNA@hamad.qa 
+9993,Winners,Table #49,Seat #8,Mrs. Shereen Kamel Moustafa Assaf ,Yes,SASSAF@hamad.qa 
+7523,Winners,Table #49,Seat #9,Mrs. Anu Varghese,Yes,AVARGHESE4@hamad.qa 
+21060,Winners,Table #49,Seat #10,Dr. Rashad Fouad Elsayed Abdel Moaty,Yes,rabdelmoaty@hamad.qa 
+,Winners,Table #50,Seat #1,Dr. Salha Bujassoum Al-Bader,Yes,
+,Winners,Table #50,Seat #2,Mr. EYAD MOHD AHMAD TUBISHAT,Yes,
+,Winners,Table #50,Seat #3,Dr. Mohamed Sir Elkhatim Hamid,Yes,
+,Winners,Table #50,Seat #4,Dr. Mohammed Mahmoud Ahmed Gaber Abdelwahed,Yes,
+,Winners,Table #50,Seat #5,Ms. Nima Ahmed Ali,Yes,
+,Winners,Table #50,Seat #6,Dr. AHLAM YOUSIF IBRAHIM MOHAMED,Yes,
+,Winners,Table #50,Seat #7,Dr. Mai Mostafa Hisham Ali Mostafa,Yes,
+,Winners,Table #50,Seat #8,Ms. Shiva Rani Rajesh,Yes,
+,Winners,Table #50,Seat #9,Ms. Jisha George                      ,Yes,
+,Winners,Table #50,Seat #10,Mr. Jenson Jose,Yes,
+,Winners,Table #51,Seat #1,Hayat Qassim Al-Hajjaji,Yes,
+,Winners,Table #51,Seat #2,Dr. Mariam AlBelushi,Yes,
+,Winners,Table #51,Seat #3,Dr. Emirah Latiph,Yes,
+,Winners,Table #51,Seat #4,Dr. Smitha Joel,Yes,
+,Winners,Table #51,Seat #5,Ms. Saadiya Ahmad S A Alhebail,Yes,
+,Winners,Table #51,Seat #6,Ms. Muna Yaqout Mubarak Alabdullah,Yes,
+,Winners,Table #51,Seat #7,Ms. Soumaya Bent Brahim Sellami,Yes,
+,Winners,Table #51,Seat #8,Ms. Alia Ahmed Ahmed,Yes,
+,Winners,Table #51,Seat #9,Ms. Naseema Mambra,Yes,
+,Winners,Table #51,Seat #10,Ms. Aanchal Bhasin,Yes,
+36578,Winners,Table #52,Seat #1,Ms. Aseel Abujubbeh ,Yes,ahatamleh@hamad.qa 
+,Winners,Table #52,Seat #2,Ms. AMENEH AHMAD AHMADI ZADEH,Yes,AZADEH3@hamad.qa
+10822,Winners,Table #52,Seat #3,Mr. Ayman Tardi ,Yes,atardi@hamad.qa 
+17203,Winners,Table #52,Seat #4,Ms. Salwa Alrawaili,Yes,salrawaili@hamad.qa 
+36754,Winners,Table #52,Seat #5,Mr. Ahmed Soliman ,Yes,amohamed52@hamad.qa 
+57344,Winners,Table #52,Seat #6,Mr. Khaldoun Alfuqaha,Yes,kalfuqaha@hamad.qa 
+10905,Winners,Table #52,Seat #7,Mr. Mohammad Okour ,Yes,mokour2@hamad.qa 
+36476,Winners,Table #52,Seat #8,Mr. Fadi Qattmash,Yes,fqattmash@hamad.qa 
+38620,Winners,Table #52,Seat #9,Ms. Shemi Assis ,Yes,sassis@hamad.qa 
+44278,Winners,Table #52,Seat #10,Ms. Jinky Alesna Torres,Yes,jtorres1@hamad.qa 
+55251,Winners,Table #53,Seat #1,Dr. Wael Mohammad Khalaf,Yes,wkhalaf1@hamad.qa
+17130,Winners,Table #53,Seat #2,Ms. Asma Mosa Saleh Al-Atey,Yes,aalatey@hamad.qa
+24187,Winners,Table #53,Seat #3,Mr. Ghassan Mohammed Atia Al-Talla,Yes,galtalla@hamad.qa
+12467,Winners,Table #53,Seat #4,Ms. Jeny Jacob,Yes,jjacob2@hamad.qa
+17166,Winners,Table #53,Seat #5,Ms. Kobra Mohammad Zarei,Yes,Kzarei@hamad.qa
+24707,Winners,Table #53,Seat #6,Ms. Murphy Mol Jacob,Yes,mjacob6@hamad.qa
+44100,Winners,Table #53,Seat #7,Dr. Gamal Abdullah Al-Ameri,Yes,galameri@hamad.qa
+17112,Winners,Table #53,Seat #8,Dr. M. P. Sujith,Yes,msujith@hamad.qa
+20818,Winners,Table #53,Seat #9,Dr. Abdul Gafoor Muslimveetil,Yes,atharayil@hamad.qa
+47302,Winners,Table #53,Seat #10,Dr. Muhammad Shakeel Riaz,Yes,mriaz2@hamad.qa
+29286,Winners,Table #54,Seat #1,Constanze Maria Morgenthaler,Yes,CMorgenthaler@hamad.qa
+40811,Winners,Table #54,Seat #2,Nikolaos Spachis,Yes,NSpachis@hamad.qa
+H40127,Winners,Table #54,Seat #3,Eda Alcicek Nohra,Yes,V-EAlcicek@hamad.qa
+H40116,Winners,Table #54,Seat #4,Maryna Shchapina ,Yes,V-MShchapina@hamad.qa
+39132,Winners,Table #54,Seat #5,Shamim Abdulhai Ansari,Yes,SAnsari2@hamad.qa
+26660,Winners,Table #54,Seat #6,Mohammed Muslim,Yes,mmohammed14@hamad.qa
+63649,Winners,Table #54,Seat #7,Robyn Sutton ,Yes,RSutton@hamad.qa
+53650,Winners,Table #54,Seat #8,Rumpa Panja,Yes,RPanja@hamad.qa
+7194,Winners,Table #54,Seat #9,Amina Ibrahim M. Hassan,Yes,Ahassan2@hamad.qa
+16979,Winners,Table #54,Seat #10,Sreekanth D. Kodandapani,Yes,dsreekanth@hamad.qa
+47858,Winners,Table #55,Seat #1,Mr. Kenneth Jun Logrono,Yes,KLogrono@hamad.qa 
+51421,Winners,Table #55,Seat #2,Dr. Mohamed Khalil,Yes,MKhalil2@hamad.qa 
+15081,Winners,Table #55,Seat #3,Mr. Mohammad Abuqamar,Yes,MABUQAMAR@hamad.qa 
+12740,Winners,Table #55,Seat #4,Mr. Luay Abdalrhaman Alsmadi,Yes,LALSMADI@hamad.qa 
+20310,Winners,Table #55,Seat #5,Ms. Elizabeth Tamara Biong,Yes,ETamara@hamad.qa 
+26827,Winners,Table #55,Seat #6,Ms. Safaa Fouad Abou Shady,Yes,SShady@hamad.qa 
+20495,Winners,Table #55,Seat #7,Ms. Shiji Varghese,Yes,SVARGHESE16@hamad.qa 
+32688,Winners,Table #55,Seat #8,Mr. Mohamed Othman,Yes,MMohamed41@hamad.qa 
+22606,Winners,Table #55,Seat #9,Ms. Khadija Said Hamood Al-Shukaili,Yes,KAlshukaili@hamad.qa 
+27029,Winners,Table #55,Seat #10,Dr. Pradeep Radhakrishnan,Yes,PRadhakrishnan@hamad.qa 
+15052,Winners,Table #56,Seat #1,Dr. Baha Eldin Hassan Ahmed Juma,Yes,bjuma@hamad.qa
+39454,Winners,Table #56,Seat #2,Mr. Sadiq Marjan,Yes,smarjan@hamad.qa
+42614,Winners,Table #56,Seat #3,Dr. Marva Yahya,Yes,myahya@hamad.qa
+25020,Winners,Table #56,Seat #4,Dr. Nuha Nimeri,Yes,nnimeri@hamad.qa
+48854,Winners,Table #56,Seat #5,Dr. Alya Salah Higazy,Yes,ahigazy@hamad.qa
+16137,Winners,Table #56,Seat #6,Dr. Imran Ibrahim,Yes,iibrahim1@hamad.qa
+NA,Winners,Table #56,Seat #7,Ms. Tahani Ramadan,Yes,tmsramadan@hotmail.com
+NA,Winners,Table #56,Seat #8,Dr. Osama Algibali,Yes,algibalios@mngha.med.sa
+7264,Winners,Table #56,Seat #9,Ms. Mariyam Suroor Naqvi,Yes, mnaqvi@hamad.qa
+29776,Winners,Table #56,Seat #10,Minette Nebab Basco,Yes,MBasco@hamad.qa
+,Winners,Table #57,Seat #1,Ms Nima Ahmed Ali,Yes,Nali8@hamad.qa
+,Winners,Table #57,Seat #2,Ms Julie George,Yes,jgeorge9@hamad.qa
+,Winners,Table #57,Seat #3,Dr. AHMED FAYED AHMED EL GEZIRY,Yes,AGEZIERY@hamad.qa
+,Winners,Table #57,Seat #4,Dr ASFAND YAR KHALID,Yes,AKHALID1@hamad.qa
+,Winners,Table #57,Seat #5,Ms Lincy Shibu,Yes,LSHIBU@hamad.qa
+,Winners,Table #57,Seat #6,Ms LINCY ANDREWS,Yes,LANDREWS1@hamad.qa
+,Winners,Table #57,Seat #7,Ms Aisha Murshed Abdo Al Salmay,Yes,AAlSalmay@hamad.qa
+,Winners,Table #57,Seat #8,Ms Lamiaa Mohd Refaat E.Saleh,Yes,lsaleh@hamad.qa
+,Winners,Table #57,Seat #9,Mr NAYEL ABDALLAH AL TARAWNEH,Yes,NTARAWNEH@hamad.qa
+,Winners,Table #57,Seat #10,Mr Hussein Jumah Hussein Abu Hassan,Yes,HHassan18@hamad.qa
+8557,Winners,Table #58,Seat #1,Ms. Mariam A.O.Al-Malaheem ,Yes,Malmalaheem@hamad.qa
+1594,Winners,Table #58,Seat #2,Dr. Mahmoud Ali Zirie ,Yes,Mzirie@hamad.qa 
+38537,Winners,Table #58,Seat #3,Dr. Mohammed Bashir ,Yes,MBashir@hamad.qa
+42610,Winners,Table #58,Seat #4,Dr. Khaled Mansur O Dukhan,Yes,KDukhan@hamad.qa
+7813,Winners,Table #58,Seat #5,Dr. Manal Musallam Othman,Yes,Mothman@hamad.qa
+24504,Winners,Table #58,Seat #6,Dr. ZEINAB DABBOUS ,Yes,ZDABBOUS@hamad.qa
+56891,Winners,Table #58,Seat #7,Ms. Sadia Mahmood ,Yes,SMahmood5@hamad.qa
+38502,Winners,Table #58,Seat #8,Mr. Abdel Wahab Khaleel Shaker Nofal ,Yes,ANofal@hamad.qa
+13773,Winners,Table #58,Seat #9,Ms. Enas A/Gadir Abdoun  Osman ,Yes,Eosman@hamad.qa
+37421,Winners,Table #58,Seat #10,Ms. Charlene Grace Roxanna Scott ,Yes,CScott1@hamad.qa
+,Winners,Table #59,Seat #1,Dr. Saad Rashid Mohd. Al Kaabi,Yes,
+,Winners,Table #59,Seat #2,Mr. Yacoub Al Hamadi,Yes,
+,Winners,Table #59,Seat #3,Dr. Nawal Mohd Al-Tamimi,Yes,
+,Winners,Table #59,Seat #4,Dr. Khalifa Ahmed J A Al-Mansoori,Yes,
+,Winners,Table #59,Seat #5,Dr. Zahra Mohsin H.J. Makki,Yes,
+,Winners,Table #59,Seat #6,Dr. Wael Mahmoud Metwally Gad,Yes,
+,Winners,Table #59,Seat #7,Dr. Mohamad Rashid Qaddoura,Yes,
+,Winners,Table #59,Seat #8,Dr. Sabrina Arrouf,Yes,
+,Winners,Table #59,Seat #9,Mr. Alhareth Ibrahim KH A Aljabor,Yes,
+,Winners,Table #59,Seat #10,Mr. Noufal Kunniyullathil,Yes,
+,Winners,Table #60,Seat #1,Dr. Wesam S Smidi,Yes,Wsmidi@hamad.qa
+,Winners,Table #60,Seat #2,Mr Hussain Ali H J Bu Hazaa,Yes,Hhazaa@hamad.qa
+,Winners,Table #60,Seat #3,Dr. Nirvana Swamy Kudlur Chandrappa,Yes,Nchandrappa@hamad.qa
+,Winners,Table #60,Seat #4,Dr. Suhair Mohammed Yousuf,Yes,dr.suhairyousuf@gmail.com
+,Winners,Table #60,Seat #5,Ms Sundas Sohail Khan,Yes,SKhan61@hamad.qa
+,Winners,Table #60,Seat #6,Mr. Ellie Asswad,Yes,EAlAsswad@hamad.qa
+,Winners,Table #60,Seat #7,Ms Sarab Emad Nadhum Al Azzawi,Yes,Salazzawi@hamad.qa
+,Winners,Table #60,Seat #8,Mr Saeed K S Yaseen,Yes,Syaseen1@hamad.qa
+,Winners,Table #60,Seat #9,Dr. Dina Mohammed R Abou Elghar,Yes,dina.elghar@naufar.com
+,Winners,Table #60,Seat #10,Ms Jessa Fe Arca,Yes,Jarca@hamad.qa
+10979,Winners,Table #61,Seat #1,Dr. Fatma Jassim Al-Kuwari,Yes,FALKUWARI7@hamad.qa
+47766,Winners,Table #61,Seat #2,Dr. Rafat Mohmamed Abdullah Saad,Yes,RSaad1@hamad.qa
+51264,Winners,Table #61,Seat #3,Dr.  Moussab Ismail Al Alwah,Yes,MAlalwah@hamad.qa
+7706,Winners,Table #61,Seat #4,Mr. Sultan Salim Hammam Al Abdulla,Yes,salabdulla1@hamad.qa
+32019,Winners,Table #61,Seat #5,Mr. Islam Ahmed Awad Bakry,Yes,IBakry@hamad.qa
+46309,Winners,Table #61,Seat #6,Mr. Qamer Iqbal,Yes,QIqbal@hamad.qa
+57817,Winners,Table #61,Seat #7,Ms. Saja Al-Khader,Yes,SAlKhader@hamad.qa
+40282,Winners,Table #61,Seat #8,Mr. Ameen Ahmad Ameen Qattash,Yes,AQattash@hamad.qa
+36753,Winners,Table #61,Seat #9,Mr. Ahmed Abdelmawla,Yes,AShahin@hamad.qa
+53095,Winners,Table #61,Seat #10,Mr. Mahmoud Abuyabes,Yes,MAbuyabes@hamad.qa
+34721,Winners,Table #62,Seat #1,Manaini Vakadewarogo Bilivalu,Yes,MBilivalu@hamad.qa 
+34713,Winners,Table #62,Seat #2,Adrian Stephen Athanaze,Yes,AAthanaze@hamad.qa
+41691,Winners,Table #62,Seat #3,Anvar Hassan Kaleeckal,Yes,AKaleeckal@hamad.qa
+54262,Winners,Table #62,Seat #4,Hamza Ben Mechichi,Yes,HMechichi@hamad.qa
+42341,Winners,Table #62,Seat #5,Mahanteshwar Kamalakar Chanda,Yes,MChanda@hamad.qa
+16978,Winners,Table #62,Seat #6,Amjad Khan Zamar Ali Khan,Yes,akhan3@hamad.qa
+39008,Winners,Table #62,Seat #7,Smaran Ayitha Ram,Yes,SRam2@hamad.qa
+61891,Winners,Table #62,Seat #8,Noora Al Nuaimi,Yes,NAlnuaimi4@hamad.qa
+62731,Winners,Table #62,Seat #9,Sheikh Mohammad Arfat,Yes,SArfat@hamad.qa
+36081,Winners,Table #62,Seat #10,Marjorie Blanche Fardi Plandes,Yes,mplandes@hamad.qa
+4709,Winners,Table #63,Seat #1,Dr. Abdulwahid Al Mulla,Yes,aalmulla@hamad.qa
+33860,Winners,Table #63,Seat #2,Dr. Yasser M El Tokhy Shouman,Yes,YShouman@hamad.qa
+44219,Winners,Table #63,Seat #3,Dr. Mohd Lateef Wani,Yes,MWani@hamad.qa
+15713,Winners,Table #63,Seat #4,Samira Al-Maraghi,Yes,salmaraghi@hamad.qa
+50229,Winners,Table #63,Seat #5,Siddiha Poovelil Shahulhameed,Yes,SShahulhameed@hamad.qa
+56687,Winners,Table #63,Seat #6,Dr. Ahsan Ehtesham,Yes,AEhtesham@hamad.qa
+6893,Winners,Table #63,Seat #7,ABEER MAHMOUD AHMED,Yes,AAHMED5@hamad.qa
+4765,Winners,Table #63,Seat #8,Ibrahim Ali Musa Ibrahim,Yes,Iibrahim@hamad.qa
+28614,Winners,Table #63,Seat #9,Sajna Hafiz,Yes,SHafiz@hamad.qa
+28223,Winners,Table #63,Seat #10,Alpha Mejo,Yes,AMejo@hamad.qa
+7514,CPESE,Table #67,Seat #1,Sunil Joseph Dsouza,Yes,
+55425,CPESE,Table #67,Seat #2,Abdelfatah Adel Abdelfatah Elhamarnah,Yes,
+35854,CPESE,Table #67,Seat #3,Abdul Ali Qureshi,Yes,
+57887,CPESE,Table #67,Seat #4,Ali Abdulhameed M A Abdeen,Yes,
+41523,CPESE,Table #67,Seat #5,Jasna Changalan Chalipurath ,Yes,
+23237,CPESE,Table #67,Seat #6,Shanitha Habeeb Rahman ,Yes,
+32643,CPESE,Table #67,Seat #7,Rijoe Maliakal John,Yes,
+42426,CPESE,Table #67,Seat #8,Sreejith Rapoyil,Yes,
+,CPESE,Table #64,Seat #1,Yasen Ahmed Ilayel ,Yes,YIlayel@hamad.qa
+,CPESE,Table #64,Seat #2,Abdulla Ahmad A A Al-Mohammed ,Yes,AAlMohammed1@hamad.qa
+,CPESE,Table #64,Seat #3,HEND KHAMIS S.I. AL-MALIKI ,Yes,Halmaliki@hamad.qa
+,CPESE,Table #64,Seat #4,Mahmoud N. M. Abuaker ,Yes,MAbuaker@hamad.qa
+,CPESE,Table #64,Seat #5,SALAM A.M.NASSAR ,Yes,Snassar@hamad.qa
+,CPESE,Table #64,Seat #6,Mohammad Younes Al Ahmad ,Yes,MAlAhmad@hamad.qa
+,CPESE,Table #64,Seat #7,Khalid fathi burghal ,Yes,Kburghal@hamad.qa
+,CPESE,Table #64,Seat #8,Zeyad Abd Elhaleem Mahmoud Al Hiyasat ,Yes,ZAlHiyasat@hamad.qa
+,CPESE,Table #65,Seat #1,Jawed,Yes,
+,CPESE,Table #65,Seat #2,Ana,Yes,
+,CPESE,Table #65,Seat #3,Cathy,Yes,
+,CPESE,Table #65,Seat #4,Emran,Yes,
+,CPESE,Table #65,Seat #5,Iman,Yes,
+,CPESE,Table #65,Seat #6,Gautam,Yes,
+,CPESE,Table #65,Seat #7,,,
+,CPESE,Table #65,Seat #8,,,
+,CPESE,Table #68,Seat #1,Alaa Sharafeldin Mubarak Ibrahim,Yes,aibrahim69@hamad.qa
+,CPESE,Table #68,Seat #2,Anusha Konnayathupura,Yes,v-aananthakrishnan@hamad.qa
+,CPESE,Table #68,Seat #3,Bhavna Raka,Yes,v-braka@hamad.qa
+,CPESE,Table #68,Seat #4,Christiana Gogescu,Yes,v-cgogescu@hamad.qa
+,CPESE,Table #68,Seat #5,Doaa Ali Milad Eldeeb,Yes,v-deldeeb@hamad.qa
+,CPESE,Table #68,Seat #6,Ercil Antonio,Yes,ebencio@hamad.qa
+,CPESE,Table #68,Seat #7,Estephanie Cruz Legaspi,Yes,v-elegaspi@hamad.qa
+,CPESE,Table #68,Seat #8,GUNJAN NARANG,Yes,v-gnarang@hamad.qa
+,CPESE,Table #69,Seat #1,Jaseer Thayyullathil,Yes,jthayyullathil@hamad.qa
+,CPESE,Table #69,Seat #2,Jeffrey Nartates,Yes,jdejesus@hamad.qa
+,CPESE,Table #69,Seat #3,Jomana Khaled,Yes,jyusuf@hamad.qa
+,CPESE,Table #69,Seat #4,Khalandar Alakady,Yes,kalakady@hamad.qa
+,CPESE,Table #69,Seat #5,KOONA MAKOOL FAIZAL,Yes,kfaizal@hamad.qa
+,CPESE,Table #69,Seat #6,Manjari Somasekaran Nair Somasekaran Nair,Yes,mnair1@hamad.qa
+,CPESE,Table #69,Seat #7,Maryam Alhamed,Yes,malhamed@hamad.qa
+,CPESE,Table #69,Seat #8,Muhammad Nihad Thoufeeque Manzil,Yes,mmanzil@hamad.qa
+,CPESE,Table #70,Seat #1,Muhammed Shanid,Yes,mshanid@hamad.qa
+,CPESE,Table #70,Seat #2,Rasheed Thazhathe Peedikayil,Yes,rpeedikayil1@hamad.qa
+,CPESE,Table #70,Seat #3,Roshini Kurien,Yes,v-rkurien@hamad.qa
+,CPESE,Table #70,Seat #4,Sabah Hussien,Yes,shussien@hamad.qa
+,CPESE,Table #70,Seat #5,Sara Alblooshi,Yes,salblooshi@hamad.qa
+,CPESE,Table #70,Seat #6,Sherouk Mohamed,Yes,v-smorsi@hamad.qa
+,CPESE,Table #70,Seat #7,Sulfath Munas,Yes,smunas@hamad.qa
+,CPESE,Table #70,Seat #8,Valcia Tania,Yes,v-vpereira@hamad.qa
+,CPESE,Table #71,Seat #1,Victor Plaza,Yes,vplaza1@hamad.qa
+,CPESE,Table #71,Seat #2,Sara Fouad Jamil,Yes,sjamil1@hamad.qa
+,CPESE,Table #71,Seat #3,Pritty Titus,Yes,ptitus@hamad.qa
+,CPESE,Table #71,Seat #4,,,
+,CPESE,Table #71,Seat #5,,,
+,CPESE,Table #71,Seat #6,,,
+,CPESE,Table #71,Seat #7,,,
+,CPESE,Table #71,Seat #8,,,
+28368,,Table #66,Seat #1,Dr. Hayam Mosed S A AL-HAJJAJI ,Yes,HALHAJJAJI1@hamad.qa
+46469,,Table #66,Seat #2,Mr. Mohmed Ahmed Ahmed Elfakharany,Yes,MElfakharany@hamad.qa
+17181,,Table #66,Seat #3,ANAM ABDO ALI H AL-MARDAHI,Yes,ANALMARDAHI@hamad.qa
+,,Table #66,Seat #4,Sonia Raichel John,Yes,SJOHN16@hamad.qa
+,,Table #66,Seat #5,Nilo Carlos Martinez,Yes,NMartinez@hamad.qa
+,,Table #66,Seat #6,Mohamed Abdelhamid Abdelmagid Abouhassan,Yes,MAbouhassan1@hamad.qa
+,,Table #66,Seat #7,Dr. Faycal Walid Ikhlef ,Yes,FIKHLEF@hamad.qa
+,,Table #66,Seat #8,,,
+AS,,Table #72,Seat #1,Mr. Ali Darwish Karbon,Yes,AKARBON@hamad.qa
+AS,,Table #72,Seat #2,Mr. Mohamed Chaker B. T Khenissi,Yes,mkhenissi@hamad.qa
+AS,,Table #72,Seat #3,Mr. Mohammed Al-feel,Yes,MAlfeel@hamad.qa
+AS,,Table #72,Seat #4,Mr. Ali Saleh A A Alyafei,Yes,AAlyafei16@hamad.qa
+AS,,Table #72,Seat #5,Mr. Ali Al-Kuwari,Yes,AALKUWARI15@hamad.qa
+WWRC,,Table #72,Seat #6,Dr. Najah Mohammad Ali,Yes,Nali1@hamad.qa
+WWRC,,Table #72,Seat #7,Dr. Nada Salaheldin Mohamed Elamin ,Yes,nelamin@hamad.qa
+WWRC,,Table #72,Seat #8,Dr. Fatema Mohamad Y H Asheer ,Yes,fasheer@hamad.qa
+WWRC,,Table #73,Seat #1,Dr.  A/Rahman Magzoub A M Kheir ,Yes,AKHEIR@hamad.qa
+WWRC,,Table #73,Seat #2,Dr. Sherein  Faroug A/Aziz Mohamed ,Yes,smohamed11@hamad.qa
+RH,,Table #73,Seat #3,Ahmad Nabeel Khaleel Al Taweel ,Yes,AAlTaweel@hamad.qa
+RH,,Table #73,Seat #4,Aisha Aize H S Al-Khayarin ,Yes,AAlKhayarin@hamad.qa
+RH,,Table #73,Seat #5,Fahad A/Hadi H.A. Eissa ,Yes,FEissa@hamad.qa
+RH,,Table #73,Seat #6,Salwa Abdulrahman Saif Emmadde ,Yes,SEMMADDE@hamad.qa
+RH,,Table #73,Seat #7,Al Anoud Ali H Z Al Fehaidi ,Yes,AAlFehaidi@hamad.qa
+HH,,Table #73,Seat #8,Lama Zuhdi Abu Khalil,Yes,lama@hamad.qa
+HH,,Table #74,Seat #1,Fida Ahmed,Yes,FAHMAD@hamad.qa
+HH,,Table #74,Seat #2,Raghda Hamad,Yes,RHAMAD@hamad.qa
+HH,,Table #74,Seat #3,Aya Othman,Yes,AOthman3@hamad.qa
+HH,,Table #74,Seat #4,Dr. Cheikh Ahmed Aboul Maaly,Yes,CMaaly@hamad.qa
+HMGH,,Table #74,Seat #5,Mr. Hamad al jraidi,Yes,jraidi@hamad.qa
+HMGH,,Table #74,Seat #6,"Ms. Fatima Al kadem,",Yes,fkadem@hamad.qa
+HMGH,,Table #74,Seat #7,Dr. Osama Hashim,Yes,Omohammad@hamad.qa
+Trauma ED,,Table #74,Seat #8,Dr. Shahzad Anjum,Yes,SAnjum@hamad.qa
+Trauma ED,,Table #75,Seat #1,Dr. Warda Ali H. Saleh,Yes,wsaleh@hamad.qa
+Trauma ED,,Table #75,Seat #2,Dr. Muna Ismail A A Almusleh,Yes,MAlmusleh1@hamad.qa
+Trauma ED,,Table #75,Seat #3,Ms. Aleen Qadsieh,Yes,AQADSIEH@hamad.qa
+Trauma ED,,Table #75,Seat #4,Mr. Mohammad Majed Mohammad. Abu Saifain,Yes,MABUSAIFAIN@hamad.qa
+AAH,,Table #75,Seat #5,Dr. Muneera Al Muhannadi ,Yes,Malmohannadi@hamad.qa
+AAH,,Table #75,Seat #6,Dr. Ahmed Abo Jaber,Yes,AABUJABER@hamad.qa
+AAH,,Table #75,Seat #7,Mr. Ayman Ghanem,Yes,AGhanem2@hamad.qa
+AAH,,Table #75,Seat #8,Mr. Akram Assaf,Yes,AASSAF@hamad.qa
+AAH,,Table #76,Seat #1,Ms. Antoinette Tanios,Yes,ATanios@hamad.qa
+CDC,,Table #76,Seat #2, Awad,Yes,
+CDC,,Table #76,Seat #3,Eric Amoah,Yes,
+CDC,,Table #76,Seat #4,Dr. Manoj Vargese,Yes,
+CDC,,Table #76,Seat #5,Kiran James,Yes,
+CDC,,Table #76,Seat #6,Karen Paguirigan,Yes,
+CDC,,Table #76,Seat #7,Asha Alex,Yes,
+CDC,,Table #76,Seat #8, Clarence Costale,Yes,
+HGH,,Table #77,Seat #1,Maryam Abdulghani,Yes,
+HGH,,Table #77,Seat #2,Gilles Gabel,Yes,
+HGH,,Table #77,Seat #3,Emad Mustafa,Yes,
+HGH,,Table #77,Seat #4,Dr. Hanan Al-Maslamani ,Yes,
+HGH,,Table #77,Seat #5,Dr- Nazeeha  Al-Hayki,Yes,
+ACC,,Table #77,Seat #6,Dr. Abdulsalam Al Qahtani,Yes,
+ACC,,Table #77,Seat #7,Dr. Khalid Abdulhadi ,Yes,
+ACC,,Table #77,Seat #8, Dr. Khalid Al Rumaihi,Yes,
+,,Table #78,Seat #1,,,
+,,Table #78,Seat #2,,,
+,,Table #78,Seat #3,,,
+,,Table #78,Seat #4,,,
+,,Table #78,Seat #5,,,
+,,Table #78,Seat #6,,,
+,,Table #78,Seat #7,,,
+,,Table #78,Seat #8,,,
+,,Table #79,Seat #1,,,
+,,Table #79,Seat #2,,,
+,,Table #79,Seat #3,,,
+,,Table #79,Seat #4,,,
+,,Table #79,Seat #5,,,
+,,Table #79,Seat #6,,,
+,,Table #79,Seat #7,,,
+,,Table #79,Seat #8,,,
